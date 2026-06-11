@@ -34,6 +34,7 @@ https://ayanentity.com/works/vibe-cooking
 - Siri AIがVibe Cooking呼び出す
 - レシピ提案
 - 調理手順を開始直前で保存（後でユーザーのタイミング・呼び出しですぐ手順案内進められるイメージ）/すぐ開始
+- 調理後評価 > 保存 > 次回以降提案時に参照とか参考する
 
 <img width="600" height="870" alt="名称未設定のアートワーク" src="https://github.com/user-attachments/assets/4ca3e1f4-4977-41f9-aeba-0537b837873a" />
 
