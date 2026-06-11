@@ -18,12 +18,14 @@ https://ayanentity.com/works/vibe-cooking
 
 
 ## 目標
-- めちゃめちゃ既存のSwiftUIコンポーネント使いまくる！！そして使いやすくする！
-- App Intentに挑戦してみる
-- 今度こそフォルダ構成も意識する！OctoDeckの構造参考にする
+- Lanch Screen の設定
+- iOS27 を踏まえたVibeコック君のアイコンリニューアル
+- App Intentに挑戦してみる？
+- APIというものに挑戦したい．v1がAPI叩いているらしいから、v2でも実装できるようにしたい．そしたらModelとEntityとSchemaの使い手になれそう
+- 今度こそフォルダ構成も意識する！OctoDeckの構造参考にする．
   - https://github.com/furarico/octo-deck-ios
 - 自分が作りたいアプリをできるところまで作る！！
-- Siriと仲良くする！
+- git stashしまくって、意味わからん結果にならんようにする．git stash はほぼバルス！！
 - とにかく毎日コードみる！xcode開く！！！
 
 ## UX・ユーザーユースケース( ~2026.06.11)
