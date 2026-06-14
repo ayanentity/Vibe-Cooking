@@ -27,7 +27,7 @@ class RecipeVersion: Identifiable{
     var recipeStatus: RecipeStatus
     
     init(
-        id: UUID,
+        id: UUID = UUID(),
         recipe: Recipe? = nil,
         ingredients: [Ingredient] = [],
         steps: [String] = [],
