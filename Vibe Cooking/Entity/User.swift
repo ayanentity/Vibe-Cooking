@@ -20,11 +20,11 @@ class User: Identifiable {
     var currentSession: CookingSession?
     
     init(
-        id: UUID,
-        allergie: [String],
-        cookingTool: [String],
-        cookingEnvironment: [String],
-        otherNotes: [String],
+        id: UUID = UUID(),
+        allergie: [String] = [],
+        cookingTool: [String] = [],
+        cookingEnvironment: [String] = [],
+        otherNotes: [String] = [],
         currentSession: CookingSession? = nil) {
             
         self.id = id

@@ -6,19 +6,24 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentScreen: View {
+    @Environment(\.modelContext) private var context
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView{
+            Tab("Recipe", systemImage: "sparkle.text.clipboard"){
+                Text("Hello, Vibe Cooking!! ")
+            }
+            Tab("Preferences", systemImage: "person.crop.circle"){
+                PreferencesScreen()
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentScreen()
+        .modelContainer(for: [User.self, Recipe.self, RecipeVersion.self, CookingSession.self, CookingRecord.self])
 }

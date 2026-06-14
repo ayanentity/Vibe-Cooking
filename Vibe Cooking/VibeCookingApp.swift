@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct VibeCookingApp: App {
@@ -13,5 +14,12 @@ struct VibeCookingApp: App {
         WindowGroup {
             ContentScreen()
         }
+        .modelContainer(for: [
+            User.self,
+            Recipe.self,
+            RecipeVersion.self,
+            CookingSession.self,
+            CookingRecord.self
+        ])
     }
 }
