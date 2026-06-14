@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Vibe_CookingApp: App {
+struct VibeCookingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentScreen()
         }
     }
 }
